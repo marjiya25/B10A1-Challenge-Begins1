@@ -3,9 +3,8 @@
 .azeret-mono-normal {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
-    font-style: normal;
+    font-style:normal;
 }
-
 .nav-items{
     display: flex;
     align-items: center;
@@ -39,6 +38,9 @@ nav ul li {
     opacity: 0.8;
     background-color: white;
 }
+.banner-img{
+    align-items: center;
+}
 .banner-text{
     color: #0D1321;
     font-size: 48px;
@@ -58,10 +60,18 @@ nav ul li {
     
 }
 .banner-content{
+    display: flex;
     align-items: center;
-    margin-left: 300px;
+    justify-content: center;
 
 }
+div ul li{
+    align-items: center;
+    list-style: none;
+}
 .banner{
-
+    width: 1440px;
+    height: 652px;
+    background-image: url('../assets/Hero-bg.png');
+    background-repeat: no-repeat;
 }
