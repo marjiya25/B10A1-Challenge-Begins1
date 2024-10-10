@@ -40,6 +40,15 @@ nav ul li {
     opacity: 0.8;
     background-color: white;
 }
+/* main section */
+.banner-content{
+   margin-left: 250px;
+   position: relative;
+   bottom: 10px;
+}
+.banner-img{
+    margin-left: 200px;
+}
 .banner-text{
     color: #0D1321;
     font-size: 48px;
@@ -49,6 +58,7 @@ nav ul li {
     color: #0D1321;
     font-size: 16px;
     font-weight: 200;
+    margin-left: 100px;
 }
 .banner-btn{
     padding: 21px 24px;
@@ -56,23 +66,15 @@ nav ul li {
     background: #0D1321;
     color: white;
     justify-content: center;
-    
+    margin-left: 250px; 
 }
-.banner-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: url(../assets/Hero-bg.png);
-    background-repeat: no-repeat;
 
-}
-div ul li{
-    align-items: center;
-    list-style: none;
-}
-.banner{
+.banner-containar{
     background-image: url('../assets/Hero-bg.png');
     background-repeat: no-repeat;
+    width: 1440px;
+    height: 652px;
+
 }
 .section-part{
     margin-left: 150px;
@@ -153,10 +155,11 @@ div ul li{
     width: 548px;
     padding: 19px 20px;
     align-items: center;
-    gap: 10px;
+    justify-content: center;
     border-radius: 8px;
     border: 1px solid rgba(13, 19, 33, 0.15);
     background: #FFF;
+    margin-left: 20%;
 }
 .btn-2{
     color: #0D1321;
@@ -171,16 +174,18 @@ div ul li{
     justify-content: center;
     align-items: center;
     gap: 10px;
+    border: #FFF;
 }
 
 .background-text{
-     text-align: center;
-     color: #FFF;
+    text-align: center;
+    color: #FFF;
 }
 .input-info{
     display: flex;
-    justify-content: space-evenly;
+    gap: 10px;
     padding: 19px 20px;
+
 }
 .third-section{
     background-image: url(../assets/handshake.jpg);
@@ -192,6 +197,7 @@ div ul li{
     border-radius: 16px;
     margin-top: 30px;
 }
+/* footer section */
 .footer-section{
     display: flex;
     justify-content: space-between;
