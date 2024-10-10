@@ -1,5 +1,7 @@
 /* nav style */
-
+*{
+    font-family: "Azeret Mono";
+}
 .azeret-mono-normal {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
@@ -38,9 +40,6 @@ nav ul li {
     opacity: 0.8;
     background-color: white;
 }
-.banner-img{
-    align-items: center;
-}
 .banner-text{
     color: #0D1321;
     font-size: 48px;
@@ -63,6 +62,8 @@ nav ul li {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url(../assets/Hero-bg.png);
+    background-repeat: no-repeat;
 
 }
 div ul li{
@@ -70,8 +71,130 @@ div ul li{
     list-style: none;
 }
 .banner{
-    width: 1440px;
-    height: 652px;
     background-image: url('../assets/Hero-bg.png');
     background-repeat: no-repeat;
+}
+.section-part{
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    padding: 15px 97px;
+    margin-top: 40px;
+}
+.section-container{
+    padding-bottom: 10px;
+}
+
+.section-title{
+    color: #0D1321;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    padding-top: 50px;
+}
+.section-info{
+    color: #454a55;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+.coding-part-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+    margin-bottom: 32px;
+}
+.coding-part-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+    margin-bottom: 32px;
+}
+.coding-part-3{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+    padding-bottom: 50px;
+}
+.coding-title{
+    color: rgba(13, 19, 33, 0.70);
+    font-size: 24px;
+    font-weight: 700;
+}
+.coding-info{
+    color:#454a55;
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn-primary{
+    font-family: "Azeret Mono";
+    display: flex;
+    padding: 12px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #0D1321;
+    opacity: 0.7;
+}
+.video-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.texting{
+    display: flex;
+    width: 548px;
+    padding: 19px 20px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    background: #FFF;
+}
+.btn-2{
+    color: #0D1321;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 8px;
+    background: #FFF;
+    display: flex;
+    width: 120px;
+    padding: 17px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.background-text{
+     text-align: center;
+     color: #FFF;
+}
+.input-info{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 19px 20px;
+}
+.third-section{
+    background-image: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    padding: 64px 48px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 40px;
+    border-radius: 16px;
+    margin-top: 30px;
+}
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 150px;
+    gap: 32px;
 }
